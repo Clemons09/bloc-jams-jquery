@@ -47,6 +47,9 @@ class Player {
     this.volume = percent;
     this.soundObject.setVolume(percent);
   }
+
+
+
   prettyTime(timeInSeconds) {
     var hr = Math.floor(timeInSeconds / 3600);
     var min = Math.floor((timeInSeconds - (hr * 3600)) / 60);
